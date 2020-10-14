@@ -7,7 +7,7 @@ This [GitHub Action](https://github.com/features/actions) sets up a Browserless 
 Basic:
 ```yaml
 steps:
-- uses: andela-ooladayo/browserless-action@v1.0.0
+- uses: andela-ooladayo/browserless-action@v1.0
 ```
 
 # License
