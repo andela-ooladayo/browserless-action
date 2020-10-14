@@ -1,0 +1,7 @@
+name: 'Setup Browserless'
+author: 'Oladayo Oyelade'
+branding:
+  color: 'green'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
