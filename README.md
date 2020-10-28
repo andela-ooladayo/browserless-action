@@ -8,6 +8,9 @@ Basic:
 ```yaml
 steps:
 - uses: andela-ooladayo/browserless-action@v1.0
+   with:
+    port: 3000
+    version: latest
 ```
 
 # License
