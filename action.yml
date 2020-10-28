@@ -2,6 +2,15 @@ name: 'Setup Browserless'
 author: 'Oladayo Oyelade'
 branding:
   color: 'green'
+  inputs:
+    browserless port:
+      description: 'Browserless port'
+      required: false
+      default: 3000
+    browserless version:
+      description: 'browserless version'
+      required: false
+      default: latest
 runs:
   using: 'docker'
   image: 'Dockerfile'
